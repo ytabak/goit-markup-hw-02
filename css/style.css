@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: #FFFFFF  ;
 }
@@ -23,7 +23,7 @@ a{
 li{
     list-style-type: none;
 }
-.header-nav {
+.header-nav-item {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -32,11 +32,11 @@ li{
     color: #2e2f42;
 }
 
-.header-nav :hover {
+.header-nav-item:hover {
     color: #404bbf;
 }
 
-.header-nav :active {
+.header-nav-item:active {
     color: #404bbf;
 }
 .header-adress{
@@ -61,8 +61,7 @@ li{
     font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
-    line-height: 60px;text-align: center;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 .section-page-title{
@@ -80,10 +79,10 @@ li{
     cursor: pointer
 
 }
-.title-section-button :hover{
+.title-section-button:hover {
     background-color: #404BBF;
 }
-.title-section-button :active{
+.title-section-button:active {
     background-color: #404BBF
 }
 .section-title{
