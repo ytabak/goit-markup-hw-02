@@ -39,6 +39,7 @@ li{
 .header-nav-item:active {
     color: #404bbf;
 }
+
 .header-adress{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -49,15 +50,15 @@ li{
     color: #434455;
     list-style-type: none;
 }
-.header-adress :hover{
+.header-adress:hover{
     color: #404bbf;
 }
-.header-adress :active{
+.header-adress:active{
     color: #404bbf;
 }
 /* Main */
 .page-title{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
@@ -96,7 +97,6 @@ li{
         text-transform: capitalize
 }
 .section-title[hidden] {
-    display: none;
     line-height: 1.2; 
 }
 .column-title{
